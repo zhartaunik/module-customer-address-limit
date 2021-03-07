@@ -1,0 +1,4 @@
+"You have reached the maximum number of addresses.","You have reached the maximum number of addresses."
+"Cannot create an address. The number of addresses is more than allowed.","Cannot create an address. The number of addresses is more than allowed."
+"Address Max Number","Address Max Number"
+"Enter maximum number of allowed addresses. Put 0 to disable limitation.","Enter maximum number of allowed addresses. Put 0 to disable limitation."

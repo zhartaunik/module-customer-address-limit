@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customer" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="address" translate="label" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="max_number" translate="label comment" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" canRestore="1">
+                    <label>Address Max Number</label>
+                    <comment>Enter maximum number of allowed addresses. Put 0 to disable limitation.</comment>
+                    <validate>validate-zero-or-greater validate-digits</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
