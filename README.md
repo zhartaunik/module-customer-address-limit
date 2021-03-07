@@ -1,6 +1,6 @@
 Restricts the number of possible customer address to be created.
 
-#Functionality.
+# Functionality.
 ## Personal Account. Address Grid.
 The button is blocked. The notification message is shown. Additional verification on the backend side.
 (Original template wasn't replaced)
